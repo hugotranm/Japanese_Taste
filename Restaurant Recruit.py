@@ -14,16 +14,16 @@ import matplotlib
 import altair as alt
 
 
-air_reserve = pd.read_csv('C:\\Users\\Tran-Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\air_reserve.csv',
+air_reserve = pd.read_csv('C:\\air_reserve.csv',
                           parse_dates = True, index_col = 'reserve_datetime')
-air_visit = pd.read_csv('C:\\Users\\Tran-Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\air_visit_data.csv', 
+air_visit = pd.read_csv('C:\\air_visit_data.csv', 
                         parse_dates = True, index_col = 'visit_date')
-air_store = pd.read_csv('C:\\Users\\Tran Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\air_store_info.csv') 
-hpg_reserve = pd.read_csv('C:\\Users\\Tran Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\hpg_reserve.csv')
-hpg_store = pd.read_csv('C:\\Users\\Tran Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\hpg_store_info.csv')
-store_id_relation = pd.read_csv('C:\\Users\\Tran Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\store_id_relation.csv')
-test_set = pd.read_csv('C:\\Users\\Tran Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\sample_submission.csv')
-date_info = pd.read_csv('C:\\Users\\Tran-Pro\\Dropbox\\Project for fun\\Restaurant Recruiting\\Data\\date_info.csv', 
+air_store = pd.read_csv('C:\\air_store_info.csv') 
+hpg_reserve = pd.read_csv('C:\\hpg_reserve.csv')
+hpg_store = pd.read_csv('C:\\hpg_store_info.csv')
+store_id_relation = pd.read_csv('C:\\store_id_relation.csv')
+test_set = pd.read_csv('C:\\sample_submission.csv')
+date_info = pd.read_csv('C:\\date_info.csv', 
                         parse_dates = True, index_col = 'calendar_date')
 
 #Looking at reserve date vs visitors
